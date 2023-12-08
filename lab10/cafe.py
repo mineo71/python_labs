@@ -1,5 +1,6 @@
 import random
 
+
 class EnhancedCafe:
     def __init__(self, num_tables, num_waiters):
         self.num_tables = num_tables
@@ -12,7 +13,7 @@ class EnhancedCafe:
 
     def new_customer(self, current_time, peak_hours):
         
-        # Шанс приходу клієнта змінюється в залежності від часу дня
+    # Шанс приходу клієнта змінюється в залежності від часу дня
         
         if random.random() < (0.2 if peak_hours else 0.05):
             
