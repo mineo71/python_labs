@@ -1,4 +1,4 @@
-# Калкулятор 
+# Calculator
 
 print ('Вітаю в калкуляторі  Python')
 q1 = int (input('Ввести число 1: '))
