@@ -1,4 +1,4 @@
-# Типи Даних
+# Data types
 
 int = 7
 print(int, 'is of type' , type(int))
@@ -17,3 +17,4 @@ print(string, 'is of type' , type(string))
 
 set ={111, 222, 333, 444}
 print(set, 'is of type' , type(set))
+
